@@ -1,0 +1,71 @@
+body{
+     
+    font-size:20px;             
+    text-align: center; 
+    width: 960px;
+    margin: auto; 
+    background-image: url(/imagens/mosaic.png); 
+}
+
+hr{
+    border: 2px solid black;
+}
+
+img{
+    border: 5px solid black;
+    border-bottom: 40px solid black;
+}
+
+a {
+    color: rgb(148, 146, 146);
+    text-decoration: none;
+    font-size: 22px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: red;
+}
+    
+
+#cabecalho{
+    text-decoration: underline;
+    font-size: 25px;
+    height: 100px;              
+    background: hsl(152, 52%, 50%);
+    margin: 20px;    
+    
+}
+
+#menu{
+    text-decoration: none;
+    float:left ;                 
+    min-height: 980px;           
+    width: 300px;                
+   
+    background: hsl(152, 52%, 50%);      
+    margin: 20px;
+    margin-top: 0px; 
+    margin-bottom: px;
+      
+}
+
+#conteudo{
+    text-decoration: none;
+    display:flow-root;
+    font-size: 20px;
+    min-height: 980px;           
+    background: hsl(152, 52%, 50%);     
+    margin: 20px; 
+    
+}
+
+#rodape{
+    height: 100px;                
+    background: hsl(152, 52%, 50%);   
+    margin: 20px; 
+    text-align: center;     
+}
+
+
+*{box-sizing: border-box;}
